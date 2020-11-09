@@ -3,7 +3,7 @@
     <h1>The glass is...</h1>
     <section name="poll" class="poll">
       <PollChoice btnText="Half full" btnAction="increaseHalfFull" />
-      <!-- btnText and btnAction are (required) props for <PollChoice> -->
+      <!-- btnText and btnAction are (required) props for <PollChoice> they are both passed as strings -->
       <PollChoice btnText="Half empty" btnAction="increaseHalfEmpty" />
     </section>
     <section name="stats" class="stats">
