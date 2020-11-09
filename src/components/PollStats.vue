@@ -26,7 +26,7 @@
 
 <script>
   export default {
-    name: 'pollStats',
+    name: 'PollStats',
     data: function () {  // in ALL vue components, the data object has to be wrapped in a function
       return {
         showStats: false,

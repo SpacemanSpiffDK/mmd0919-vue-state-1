@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    name: 'pollChoice',
+    name: 'PollChoice',
     props: {    // if props are declared in a props object (vs array), specific parameters can be set for each prop
       btnAction: {
         type: String,   // type defines what data type this prop should be 
